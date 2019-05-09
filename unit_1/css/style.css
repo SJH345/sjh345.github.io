@@ -3,13 +3,14 @@ body {
 	font-size:20px;
 }
 h1 {
-	color: orange;
-
-p {
 	color: #40ff00;
-}
 
 }
+
 h1 {
 	font-size:5em;
+}
+
+p {
+	color: #ff9933;
 }
