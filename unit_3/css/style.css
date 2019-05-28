@@ -10,6 +10,10 @@ h1 {
 	font-size:8em;
 }
 
+h1 {
+	text-align: center;
+}
+
 p {
 	color: #3D3200;
 }
