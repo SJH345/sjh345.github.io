@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Open+Sans&display=swap');
+
+body {
+	background-color: #3DA4FF;
+	font-size:20px;
+}
+h1 {
+	font-family: 'Fugaz One';
+	color: #ff6B66;
+	font-size:8em;
+	text-align: center;
+}
+
+
+h2 {
+	font-family: 'Fugaz One', cursive;
+	text-align: center;
+}
+
+p {
+	color: #3D3200;
+}
+
