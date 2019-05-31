@@ -17,10 +17,6 @@ h2 {
 	text-align: center;
 }
 
-p.links {
-	font-family: 'Roboto Slab', serif;
-	text-align: center;
-}
 
 
 h3 {
@@ -40,6 +36,8 @@ img{
 
 nav a {
 	color: #cccccc;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
 	font-style: italic;
 	margin-right: 10px;
 }
