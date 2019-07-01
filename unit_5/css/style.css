@@ -1,11 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One|Open+Sans&display=swap');
 
 body {
-	background-color: #3DA4FF;
 	font-size:20px;
 }
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 h1 {
+	background-color: #FFED74
 	font-family: 'Fugaz One';
 	color: #ff6B66;
 	font-size:8em;
@@ -30,19 +43,73 @@ p {
 	text-align: center;
 }
 
-img id=BM {
-	width: 200px;
-}
-
 img{
 	width: 200px;
 }
 
+.example{
+	padding: 0;
+	margin: 0;
+	width: 535px;
+}
+
+nav {
+	text-align: center;
+	border: 1px black solid;
+	background-color: #E8C66A;
+	padding: 20px;
+}
+
 nav a {
-	color: #56501f;
+	color: #ffffff;
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
 	font-style: italic;
-	margin-right: 10px;
+	display: block;
+	float: left;
+	padding: 10px 5px 5px 10px;
 }
 
+nav a:hover {
+	background-color:  #ff6B66;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	padding-top: 50px;
+}
+
+section {
+	padding: 10px 0;
+}
+
+.mapping:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+
+.mapping {
+	font-size: 1em;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
