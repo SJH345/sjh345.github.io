@@ -12,15 +12,16 @@ body {
 	font-size:20px;
 }
 
+
 header {
-	border: 1px black solid;
+	
 }
 
 h1 {
 	background-color: #FFED74
 	font-family: 'Fugaz One';
 	color: #ff6B66;
-	font-size:8em;
+	font-size: 8em;
 	text-align: center;
 }
 
@@ -42,43 +43,71 @@ p {
 	text-align: center;
 }
 
+.wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 img{
-	width: 200px;
+	width: 100%;
 }
 
 .example{
 	padding: 0;
-	margin: 0;
-	width: 535px;
+	margin: 2%;
+	width: 40%;
 }
 
 nav {
-	text-align: center;
-	border: 1px black solid;
+	/*text-align: center;
+	border: 1px black solid;*/
 	background-color: #0F0C17;
 }
 
 nav a {
 	color: #ffffff;
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
+	font-size: 1em;
+	/*text-align: center;*/
 	font-style: italic;
-	display: block;
+	/*display: block;*/
 	float: left;
-	padding: 10px 5px 5px 10px;
+	padding: 1em 2.35em;
 }
+
+/*.mapping {
+	font-size: 1em;
+}*/
 
 a:hover {
 	background-color:  #ff6B66;
 }
 
-article {
-	border: 1px black solid;
-	padding-top: 50px;
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+.intro img {
+	width: 45%;
+	margin: 2%;
+	float: left;
 }
 
-section {
-	padding: 10px 0;
+.intro div{
+	margin: 2em;
+	padding-top: 13%;
+	width: 45%;
+	float: left;
+} 
+
+.intro h3{
+	text-align: left;
 }
 
 .clearfix:after {
@@ -91,17 +120,46 @@ section {
 	visibility: hidden;
 }
 
-.mapping {
-	font-size: 1em;
+
+article section {
+	width: 33.33%;
+	float: left;
+	padding: 1em;
+	border: 1px solid;
 }
 
-#wrapper {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px black solid;
+article section img {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+.grid p{
+	text-align: left;
+}
+
+.cta {
+	display: inline-block;
+	margin-top: 1em;
+	background: #ff6B66;
+	color: #0F0C17;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	text-align: center;
+	width: 33%;
+	float: right;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
 }
 
 footer {
-	border: 1px black solid;
+	margin-top: 2%
 }
