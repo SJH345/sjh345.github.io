@@ -73,7 +73,7 @@ nav a {
 	font-style: italic;
 	/*display: block;*/
 	float: left;
-	padding: 1em 2.35em;
+	padding: 1em 2em;
 }
 
 /*.mapping {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .intro div{
-	margin: 2em;
+	margin: 1em;
 	padding-top: 13%;
 	width: 45%;
 	float: left;
@@ -146,7 +146,7 @@ article section img {
 	padding: 0.5em 1em;
 	text-decoration: none;
 	text-align: center;
-	width: 33%;
+	width: 40%;
 	float: right;
 }
 
