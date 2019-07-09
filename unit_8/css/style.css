@@ -12,7 +12,6 @@ body {
 	font-size:1.25em;
 }
 
-
 header {text-align: center;
 	
 }
@@ -74,10 +73,10 @@ nav {
 nav a {
 	color: #ffffff;
 	font-family: 'Roboto Slab', serif;
-	font-size: .9849em;
+	font-size: .85em;
 	font-style: italic;
 	display: inline-block;
-	padding: 1em .53em;
+	padding: 1em .5em;
 }
 
 a:hover {
@@ -138,4 +137,58 @@ article section img {
 footer {
 	text-align: center;
 	margin-top: 2%
+}
+
+@media screen and (max-width:1250px){
+	nav a {
+		font-size: .75em;
+	}
+}
+
+@media screen and (max-width:1120px){
+	h3 {
+		font-size: .85em;
+	}
+	p {
+		font-size: .85em;
+	}
+		
+	/*<section>
+	<h3><a href="#">Awards/Grants/
+	Fellowships</a></h3>
+	</section>*/
+}
+
+@media screen and (max-width:768px){
+	body {
+		font-size: .95em;
+	}
+	h1 {
+		font-size: 3em;
+
+	}
+
+	.example{
+		display: none;
+	}
+
+	nav a {
+	display: inline;
+	padding: 1em .5em;
+	}
+
+	.intro div{
+	padding: 5% 1em 0;
+	width: 50%;
+	float: left;
+	} 
+
+	article section {
+	width: 50%;
+	float: left;
+	padding: 1em;
+	border: .05em solid;
+	text-align: center;
+	}
+
 }
