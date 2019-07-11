@@ -44,6 +44,7 @@ p {
 
 .wrapper {
 	width: 90%;
+	max-width: 80em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -132,6 +133,7 @@ article section img {
 	text-decoration: none;
 	text-align: center;
 	width: 40%;
+	min-width: 10em;
 }
 
 footer {
@@ -178,7 +180,6 @@ footer {
 	}
 
 	nav a {
-	display: inline;
 	padding: 1em .5em;
 	}
 
@@ -197,3 +198,79 @@ footer {
 	}
 
 }
+
+@media screen and (max-width:599px){
+
+	.intro img {
+	width: 33%;
+	float: left;
+	padding: 1em;
+	}
+
+	.intro div {
+	padding: 1em 0 1em 0;
+	width: 66%;
+	float: left;
+	} 
+
+}
+
+@media screen and (max-width:455px){
+
+	nav a {
+
+		padding: 1em .5em;
+		display: block;
+		border-bottom: 1px solid #3DA4FF;
+	}
+
+}
+
+@media screen and (max-width:427px){
+
+	.intro img {
+		min-width: 104px;
+	}
+
+}
+
+@media screen and (max-width:403px){
+
+	.cta {
+	width: 30%;
+	min-width: 9em;
+	}
+
+}
+
+@media screen and (max-width:371px){
+
+	h2 {
+		font-size: 1em; 
+	}
+
+	article section {
+		width: auto;
+		float: none;
+		padding: 1em;
+		border: .05em solid;
+		text-align: center;
+	}
+
+	.intro img {
+		width: 100%;
+		float: none;
+	}
+
+	.intro div {
+		padding: 1em 0 1em 0;
+		float: none;
+		width: auto;
+	} 
+
+}
+
+
+
+
+
